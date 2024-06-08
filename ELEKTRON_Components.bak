@@ -4612,7 +4612,7 @@
 			)
 		)
 	)
-	(symbol "generic_joystick"
+	(symbol "ps5_joystick"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4659,16 +4659,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "ps5, joystick, x, y, z, 3d, xy"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "generic_joystick_0_1"
+		(symbol "ps5_joystick_0_1"
 			(circle
 				(center -5.08 -1.27)
 				(radius 0.508)
@@ -4834,7 +4825,7 @@
 				)
 			)
 		)
-		(symbol "generic_joystick_1_1"
+		(symbol "ps5_joystick_1_1"
 			(polyline
 				(pts
 					(xy 0 -1.27) (xy 0 -2.794)
