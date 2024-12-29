@@ -5884,7 +5884,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ELEKTRON_Footprints:e28_2g4m27s"
+		(property "Footprint" "ELEKTRON_Footprints:e28_2g4m27s_breakout"
 			(at 0 20.32 0)
 			(effects
 				(font
@@ -5902,7 +5902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "EBYTE E28-2G4M27S Module with SX1280/SX1281 (depending on DS version?) and +14dB power amplifier, maximum output power 27dBm"
+		(property "Description" ".1\" pin breakout for EBYTE E28-2G4M27S Module, icludes 3.3V LDO and filter caps"
 			(at 0 22.86 0)
 			(effects
 				(font
@@ -5923,7 +5923,7 @@
 		(symbol "e28_2g4m27s_breakout_1_1"
 			(rectangle
 				(start -8.89 16.51)
-				(end 8.89 -11.43)
+				(end 8.89 -12.7)
 				(stroke
 					(width 0)
 					(type default)
@@ -5944,7 +5944,7 @@
 					(type none)
 				)
 			)
-			(text "SX1280/SX1281"
+			(text "Breakout"
 				(at 0 12.954 0)
 				(effects
 					(font
@@ -6089,6 +6089,42 @@
 					)
 				)
 				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -11.43 -11.43 0)
+				(length 2.54)
+				(name "VIN5V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 11.43 -11.43 180)
+				(length 2.54)
+				(name "VOUT3v3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
 					(effects
 						(font
 							(size 1.27 1.27)
