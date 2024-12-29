@@ -5500,6 +5500,7 @@
 		)
 		(property "Value" "E28-2G4M27S"
 			(at 0 14.986 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
