@@ -1,4 +1,4 @@
-(footprint "stm32f103_blue_pill"
+(footprint "stm32f103_blue_pill_with_swd"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "stm32f103_blue_pill"
+	(property "Value" "stm32f103_blue_pill_with_swd"
 		(at 0.635 -10.025 0)
 		(layer "F.Fab")
 		(uuid "ff73bef6-8178-4355-9db2-9a26036b32eb")
@@ -125,6 +125,46 @@
 		(uuid "231498de-465b-4a8b-8915-76e3746dac18")
 	)
 	(fp_line
+		(start -5.08 19.05)
+		(end 5.08 19.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "29f5b180-327c-4e1f-b87f-c0212c0baccc")
+	)
+	(fp_line
+		(start -5.08 19.05)
+		(end 5.08 19.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "29f5b180-327c-4e1f-b87f-c0212c0baccc")
+	)
+	(fp_line
+		(start -5.08 21.59)
+		(end -5.08 19.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cfaa600f-2f55-4a99-bee3-763881a750c8")
+	)
+	(fp_line
+		(start -5.08 21.59)
+		(end -5.08 19.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cfaa600f-2f55-4a99-bee3-763881a750c8")
+	)
+	(fp_line
 		(start 5.08 -27.94)
 		(end 5.08 -20.32)
 		(stroke
@@ -143,6 +183,46 @@
 		)
 		(layer "F.SilkS")
 		(uuid "5f07ff9c-f9ee-409f-910f-a7bbff2d41e0")
+	)
+	(fp_line
+		(start 5.08 19.05)
+		(end 5.08 21.59)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3d13a996-3de2-4f60-bf34-3027753a7167")
+	)
+	(fp_line
+		(start 5.08 19.05)
+		(end 5.08 21.59)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3d13a996-3de2-4f60-bf34-3027753a7167")
+	)
+	(fp_line
+		(start 5.08 21.59)
+		(end -5.08 21.59)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8793bf13-a947-402a-9ef3-608ce301e36e")
+	)
+	(fp_line
+		(start 5.08 21.59)
+		(end -5.08 21.59)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8793bf13-a947-402a-9ef3-608ce301e36e")
 	)
 	(fp_line
 		(start 6.35 -26.67)
@@ -174,6 +254,19 @@
 		(layer "F.SilkS")
 		(uuid "da5ea1ef-c372-4164-90c8-69d4a01f754a")
 	)
+	(fp_text user "SWD"
+		(at 0 22.225 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "556a5911-8690-4e9d-9999-25350cb6bd9f")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.1)
+			)
+			(justify top)
+		)
+	)
 	(pad "3V3" thru_hole circle
 		(at -7.62 24.13)
 		(size 1.6 1.6)
@@ -181,6 +274,14 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "8e784576-4b05-4abc-9851-55f405558b09")
+	)
+	(pad "3V3" thru_hole circle
+		(at -3.81 20.32)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d102055e-9a76-4bbe-8428-1695787786b2")
 	)
 	(pad "3V3" thru_hole circle
 		(at 7.62 -19.05)
@@ -205,6 +306,14 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "f2ebc32c-0a33-47b4-b620-24abce440d26")
+	)
+	(pad "G" thru_hole circle
+		(at 3.81 20.32)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6b418132-6326-4cbd-8f4c-cf444f6ec282")
 	)
 	(pad "G" thru_hole circle
 		(at 7.62 -24.13)
@@ -485,6 +594,22 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "f1ce7cbd-044b-4f38-846a-cb43ec1bb371")
+	)
+	(pad "SWCLK" thru_hole circle
+		(at 1.27 20.32)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2c872334-e69a-4eb7-849e-36c06a0872c6")
+	)
+	(pad "SWO" thru_hole circle
+		(at -1.27 20.32)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "beffcfb8-bcd1-4675-9bd2-ae35137a34db")
 	)
 	(pad "VBAT" thru_hole circle
 		(at 7.62 24.13)
