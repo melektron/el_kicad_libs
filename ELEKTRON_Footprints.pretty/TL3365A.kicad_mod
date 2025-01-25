@@ -1,0 +1,209 @@
+(footprint "TL3365A"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "E-Switch TL3365A Series Tactile Micro-Switches")
+	(tags "switch button tactile micro TL3365 push eswitch")
+	(property "Reference" "REF**"
+		(at 0 3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "18b7266d-3be6-4aad-a8e3-f874a3c28a2f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TL3365A"
+		(at 0 4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7dc036d0-7a85-4015-921d-5666e6082fe2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "671f96db-a0ea-42a4-b51e-f8cba30063cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.at/datasheet/2/140/TL3365AF180QG-3459225.pdf"
+		(at 0.1 -2.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6baa4e06-71d8-49ad-91dc-36eb41a5f537")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "E-Switch TL3365A Series Tactile Micro-Switches"
+		(at 0.1 -4.07 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87351c06-aba1-48e0-9542-d6f5a0825328")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.7 -1.6)
+		(end 2.7 -1.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "538fb3db-7424-45b0-8b0a-216bef39e997")
+	)
+	(fp_line
+		(start -2.7 1.6)
+		(end 2.7 1.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d872effa-95c1-41a7-9c78-0ab2229319c4")
+	)
+	(fp_line
+		(start -2.2 -0.6)
+		(end -2.2 0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d3485c9f-2646-46bf-8649-328e00c47427")
+	)
+	(fp_line
+		(start -0.8 -0.9)
+		(end 0.8 -0.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f02d48a9-2bef-4594-b699-10121076bff9")
+	)
+	(fp_line
+		(start -0.8 0.9)
+		(end 0.8 0.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9af29268-0e47-4b2e-a4c4-a4ab5dd88674")
+	)
+	(fp_line
+		(start 2.2 -0.6)
+		(end 2.2 0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a3daf773-ffb0-4155-9506-0708404ef981")
+	)
+	(fp_arc
+		(start -0.8 0.9)
+		(mid -1.7 0)
+		(end -0.8 -0.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "68b0d9b6-4cb9-4bc3-8616-1dc1f3168e1a")
+	)
+	(fp_arc
+		(start 0.8 -0.9)
+		(mid 1.7 0)
+		(end 0.8 0.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "71ca58d6-6b63-426e-a64f-c5243e250d06")
+	)
+	(fp_rect
+		(start -2.8 -1.7)
+		(end 2.8 1.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "4f6adfd8-c214-43cb-94e5-14b5e25ac518")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8d8eeda7-10b5-4ae6-8921-54c56be1ecb7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.25 1.075)
+		(size 1 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "5b86dae0-d896-4dc5-8418-178749b5325f")
+	)
+	(pad "2" smd roundrect
+		(at 2.25 1.075)
+		(size 1 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "7d487acf-ca9a-4234-8310-8f6d3deb99c0")
+	)
+	(pad "3" smd roundrect
+		(at -2.25 -1.075)
+		(size 1 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "633d6c9f-8e36-4199-9666-248df35ed195")
+	)
+	(pad "4" smd roundrect
+		(at 2.25 -1.075)
+		(size 1 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "96002c38-756d-457f-8cc7-7c9a8e8d077c")
+	)
+)
