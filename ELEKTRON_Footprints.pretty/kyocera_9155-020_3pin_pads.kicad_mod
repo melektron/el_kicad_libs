@@ -186,8 +186,38 @@
 			(width 0.05)
 			(type default)
 		)
-		(layer "Edge.Cuts")
+		(layer "Dwgs.User")
 		(uuid "e7b4a75d-1fa9-4966-b097-e04b858e2ac0")
+	)
+	(fp_line
+		(start 1.8 -4.9)
+		(end 1.8 -4.2)
+		(stroke
+			(width 0.03)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "0db0e868-5c04-4de8-8a06-d816fe1ebeb2")
+	)
+	(fp_line
+		(start 1.8 -4.2)
+		(end 1.7 -4.3)
+		(stroke
+			(width 0.03)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "5de8c60c-bf8e-436f-b31c-e39a7e898832")
+	)
+	(fp_line
+		(start 1.8 -4.2)
+		(end 1.9 -4.3)
+		(stroke
+			(width 0.03)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "02853158-5ede-4cdb-893a-25eb3cc94c22")
 	)
 	(fp_line
 		(start -1.495 -4.60375)
@@ -348,6 +378,19 @@
 		)
 		(layer "User.2")
 		(uuid "235a2032-f54c-4e46-a0a1-ac72c80acd5f")
+	)
+	(fp_text user "PCB Edge"
+		(at -2.3 -5 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "59453b14-9011-4967-b9e9-b72e1bcefb38")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -12.5 0)
