@@ -1,14 +1,15 @@
 # el_kicad_libs
 
-ELEKTRON KiCAD Libraries: General collection of symbols, footprints and 3D-models that I have created and use
+ELEKTRON KiCAD Libraries: Collections of symbols, footprints and 3D-models that I have created and use.
 
 
 ## Structure
 
+This repository contains multiple libraries where symbols are grouped according to their purpose/type. Each folder contains a symbol and/or footprint library (with optional 3D models), depending on which is relevant for the purpose
+
 - ```_legacy```: This folder contains old versions of the library created with old versions of kicad. These are no longer maintained and shouldn't be used. They are purely there for the sake of preserving them. 
-- ```ELEKTRON_Components3D```: This folder contains 3D-Models for footprints
-- ```ELEKTRON_Footprints```: This folder contains footprints
-- ```ELEKTRON_Components.kicad_sym```: This is KiCAD library containing schematic symbols.
+- ```el_general```: Collection of general symbols and footprints for various electronic components I used over the years.
+- ```el_industrial```: Symbols for creating plans of industrial control systems and cabinets. These have no footprints as they are not intended to be put on PCBs.
  
 
 ## Attribution and Licenses
