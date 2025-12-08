@@ -172,7 +172,7 @@
 		)
 		(symbol "60JASM504230K-M23B-T-SC_1_1"
 			(pin power_in line
-				(at -8.89 7.62 270)
+				(at -7.62 7.62 270)
 				(length 2.54)
 				(name "U"
 					(effects
@@ -190,7 +190,7 @@
 				)
 			)
 			(pin power_in line
-				(at -6.35 7.62 270)
+				(at -5.08 7.62 270)
 				(length 2.54)
 				(name "V"
 					(effects
@@ -208,7 +208,7 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 7.62 270)
+				(at -2.54 7.62 270)
 				(length 2.54)
 				(name "W"
 					(effects
@@ -3439,7 +3439,7 @@
 					(justify left)
 				)
 			)
-			(text "IN0"
+			(text "IN1"
 				(at -1.905 -17.78 0)
 				(effects
 					(font
@@ -6776,373 +6776,6 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "FINDER-34.51"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "K"
-			(at 11.43 3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FINDER-34.51"
-			(at 11.43 1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 32.258 -0.762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn.findernet.com/app/uploads/S34EN.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "FINDER 34.51, Ultra-slim SPDT relay, print or socket mount, 6A"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "spdt relay slim signal"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "Relay*SPDT*Finder*36.11*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "FINDER-34.51_0_0"
-			(polyline
-				(pts
-					(xy 2.54 3.81) (xy 2.54 5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 3.81) (xy 7.62 5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 3.81) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "FINDER-34.51_0_1"
-			(rectangle
-				(start -10.16 5.08)
-				(end 10.16 -5.08)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(rectangle
-				(start -8.255 1.905)
-				(end -1.905 -1.905)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -7.62 -1.905) (xy -2.54 1.905)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 5.08) (xy -5.08 1.905)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 -5.08) (xy -5.08 -1.905)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0) (xy -1.27 0)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.635 0) (xy 0 0)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.635 0) (xy 1.27 0)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.635 0) (xy 1.27 0)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 0) (xy 2.54 0)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 2.54) (xy 2.54 3.81) (xy 2.54 2.54) (xy 2.54 2.54) (xy 3.175 3.175) (xy 2.54 3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.175 0) (xy 3.81 0)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.08 -2.54) (xy 3.175 3.81)
-				)
-				(stroke
-					(width 0.508)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.08 -2.54) (xy 5.08 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "FINDER-34.51_1_1"
-			(pin passive line
-				(at -5.08 7.62 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -5.08 -7.62 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 7.62 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 -7.62 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 7.62 270)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
 	(symbol "FINDER-46.52"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8444,7 +8077,7 @@
 			)
 			(polyline
 				(pts
-					(xy -15.24 12.7) (xy -15.24 5.08) (xy 0 5.08) (xy 0 12.7)
+					(xy -12.7 12.7) (xy -12.7 5.08) (xy 0 5.08) (xy 0 12.7)
 				)
 				(stroke
 					(width 0)
@@ -8468,7 +8101,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 5.08) (xy 10.16 5.08) (xy 10.16 12.7)
+					(xy 0 5.08) (xy 7.62 5.08) (xy 7.62 12.7)
 				)
 				(stroke
 					(width 0)
@@ -8480,7 +8113,7 @@
 			)
 			(polyline
 				(pts
-					(xy 4.445 7.62) (xy 5.715 7.62)
+					(xy 3.175 7.62) (xy 4.445 7.62)
 				)
 				(stroke
 					(width 0)
@@ -8492,7 +8125,7 @@
 			)
 			(polyline
 				(pts
-					(xy 4.953 6.985) (xy 5.207 6.985)
+					(xy 3.683 6.985) (xy 3.937 6.985)
 				)
 				(stroke
 					(width 0)
@@ -8504,7 +8137,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 8.255) (xy 5.08 8.89)
+					(xy 3.81 8.255) (xy 3.81 8.89)
 				)
 				(stroke
 					(width 0)
@@ -8516,7 +8149,7 @@
 			)
 			(polyline
 				(pts
-					(xy 6.35 8.255) (xy 3.81 8.255)
+					(xy 5.08 8.255) (xy 2.54 8.255)
 				)
 				(stroke
 					(width 0)
@@ -8546,8 +8179,8 @@
 					)
 				)
 			)
-			(text "Mains Power"
-				(at -7.62 7.62 0)
+			(text "Power IN"
+				(at -6.35 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8567,24 +8200,6 @@
 				(effects
 					(font
 						(size 1.27 1.27)
-					)
-				)
-			)
-			(pin power_in line
-				(at -12.7 15.24 270)
-				(length 2.54)
-				(name "R"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
 					)
 				)
 			)
@@ -8609,7 +8224,7 @@
 			(pin power_in line
 				(at -10.16 15.24 270)
 				(length 2.54)
-				(name "S"
+				(name "R"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8732,6 +8347,24 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 2.54 15.24 270)
+				(length 2.54)
+				(name "PE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_out line
 				(at 2.54 -15.24 90)
 				(length 2.54)
@@ -8751,7 +8384,7 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 15.24 270)
+				(at 5.08 15.24 270)
 				(length 2.54)
 				(name "PE"
 					(effects
@@ -8772,24 +8405,6 @@
 				(at 5.08 -15.24 90)
 				(length 2.54)
 				(name "W"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 6.35 15.24 270)
-				(length 2.54)
-				(name "PE"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10082,7 +9697,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "PILZ_PNOZ_s4_24VDC"
 			(at 0 0 0)
 			(effects
 				(font
